@@ -1,3 +1,4 @@
+gitbook build
 cd _book
 cp -r * ~/projects/Queens-DWrI.github.io
 cd ~/projects/Queens-DWrI.github.io
