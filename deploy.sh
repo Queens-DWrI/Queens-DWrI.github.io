@@ -1,3 +1,5 @@
+git add -A
+git commit -m "Automatic commit"
 gitbook build
 cd _book
 cp -r * ~/projects/Queens-DWrI.github.io
