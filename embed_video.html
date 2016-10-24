@@ -2,7 +2,7 @@
 <!DOCTYPE HTML>
 <html lang="" >
     <head>
-        <title>Manage categories · GitBook</title>
+        <title>Embedding a YouTube video · GitBook</title>
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
@@ -57,8 +57,10 @@
     <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
 
     
+    <link rel="next" href="categories.html" />
     
-    <link rel="prev" href="embed_video.html" />
+    
+    <link rel="prev" href="embed_tweets.html" />
     
 
     </head>
@@ -191,7 +193,7 @@
             
         </li>
     
-        <li class="chapter " data-level="1.9" data-path="embed_video.html">
+        <li class="chapter active" data-level="1.9" data-path="embed_video.html">
             
                 <a href="embed_video.html">
             
@@ -204,7 +206,7 @@
             
         </li>
     
-        <li class="chapter active" data-level="1.10" data-path="categories.html">
+        <li class="chapter " data-level="1.10" data-path="categories.html">
             
                 <a href="categories.html">
             
@@ -247,7 +249,7 @@
     <!-- Title -->
     <h1>
         <i class="fa fa-circle-o-notch fa-spin"></i>
-        <a href="." >Manage categories</a>
+        <a href="." >Embedding a YouTube video</a>
     </h1>
 </div>
 
@@ -262,23 +264,31 @@
     
                                 <section class="normal markdown-section">
                                 
-                                <h1 id="categories">Categories</h1><h3 id="changing-categories-in-the-menu-bar">Changing categories in the menu bar</h3><ol><li>On the left menu bar in the dashboard, hit <code>Appearance &gt; Menus</code>. (That is, hit Appearance and submenus will appear on the same menu bar, then click the Appearance submenu.)
+                                <h1 id="embeding-youtube-videos">Embeding YouTube videos</h1><p>Video is rapidly becoming one of the most popular forms of media on the web, and it&apos;s especially suited to mobile readers. The below will show you how to embed YouTube videos in your blog posts.</p><ol><li>Find the video you would like to link to.
 </li>
-<li>Where it says <code>Select menu to edit,</code> choose <code>Primary</code>.
-</li>
-<li>You&apos;ll see the current headings for the main page menu appear in the main area. 
-</li>
-<li><p>Editing the menus:</p><ul><li>Move menu items around by dragging and dropping.
-</li>
-<li>To move an item, hit the little arrow on the right of the item header and then hit &quot;remove&quot; on the dropdown menu that appears.
-</li>
-<li>To add new categories to the menu, check the box for the category you want on the left and then press &quot;Add to Menu.&quot;
-</li>
-<li>Make sure you save your changes to the menu when you&apos;re done or they will be lost.  
-</li></ul>
-</li>
-<li><p>To create new categories, first create a blog post with <code>Posts &gt; Add new</code>. On the bottom right where it says <code>Categories</code>&quot; choose <code>Add category</code> and fill in the name.</p></li></ol>
+<li>Click the &quot;share&quot; button, which is below the section listing the video name and the number of views.
+</li></ol>
+<p><img alt="Image showing where the share button in when embedding videos" src="screenshots/embed_video.png"></p><ol start="3">
+<li>Click the Embed button that appears.</li>
+<li>Copy the text in the box, which should already be selected. It will look something like this:</li>
+</ol>
 
+
+
+<pre><code>&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/UPxUZOUUMLI&quot; frameborder=&quot;0&quot; allowfullscreen&gt;&lt;/iframe&gt;</code></pre>
+<ol start="5">
+<li>In your blog editing page, click the button that says &quot;Text&quot; that is above and to the right of the main editing area.</li>
+<li>Once you&apos;re in text mode, find where in the post you want to embed the video and paste in the HTML from YouTube that you copied in step 4.</li>
+<li>Save the draft and preview. You should see the video embedded in your blog post.</li>
+</ol>
+
+
+
+<p>When you&apos;re done, your video should look like this:</p><iframe width="560" height="315" src="https://www.youtube.com/embed/UPxUZOUUMLI" frameborder="0" allowfullscreen></iframe>
+
+
+
+<h3 id="troubleshooting">Troubleshooting</h3><p>If you&apos;re seeing the HTML instead of the video when you preview, you might not have been in text mode. Erase the HTML and try again, making sure you switch from Visual mode to HTML mode.</p><p>Make sure you&apos;ve copied all of the HTML code, including the opening <code>&lt;</code> and closing <code>&gt;</code> characters.</p>
                                 
                                 </section>
                             
@@ -305,10 +315,14 @@
 
             
                 
-                <a href="embed_video.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: Embedding a YouTube video">
+                <a href="embed_tweets.html" class="navigation navigation-prev " aria-label="Previous page: Embedding a tweet">
                     <i class="fa fa-angle-left"></i>
                 </a>
                 
+                
+                <a href="categories.html" class="navigation navigation-next " aria-label="Next page: Manage categories">
+                    <i class="fa fa-angle-right"></i>
+                </a>
                 
             
         
@@ -317,7 +331,7 @@
     <script>
         var gitbook = gitbook || [];
         gitbook.push(function() {
-            gitbook.page.hasChanged({"page":{"title":"Manage categories","level":"1.10","depth":1,"previous":{"title":"Embedding a YouTube video","level":"1.9","depth":1,"path":"embed_video.md","ref":"embed_video.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"categories.md","mtime":"2016-08-11T21:36:33.578Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-10-24T03:07:34.704Z"},"basePath":".","book":{"language":""}});
+            gitbook.page.hasChanged({"page":{"title":"Embedding a YouTube video","level":"1.9","depth":1,"next":{"title":"Manage categories","level":"1.10","depth":1,"path":"categories.md","ref":"categories.md","articles":[]},"previous":{"title":"Embedding a tweet","level":"1.8","depth":1,"path":"embed_tweets.md","ref":"embed_tweets.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"embed_video.md","mtime":"2016-10-24T03:06:33.684Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-10-24T03:07:34.704Z"},"basePath":".","book":{"language":""}});
         });
     </script>
 </div>
